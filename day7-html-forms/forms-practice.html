@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+</head>
+<body>
+
+    <h2>Basic Form</h2>
+    <form>
+        <label for="first">Name: </label>
+        <input type="text" id="first" required name="username" placeholder="Enter your name"><br><br>
+
+        <label for="second">Age: </label>
+        <input type="number" id="second" name="userage" placeholder="Enter your age"><br><br>
+
+        <button>Submit</button>
+    </form>
+
+    <hr>
+
+    <h2>Contact Us</h2>
+    <form>
+        <label for="fname">Full Name: </label>
+        <input type="text" name="fname" id="fname"><br><br>
+
+        <label for="emailid1">Email: </label>
+        <input type="email" name="emailid" id="emailid1"><br><br>
+
+        <label for="contacts">Phone Number: </label>
+        <input type="tel" name="contacts" id="contacts"><br><br>
+
+        <label for="msg">Message: </label>
+        <textarea name="msg" id="msg" rows="3" cols="25"></textarea><br><br>
+
+        <label for="password1">Password: </label>
+        <input type="password" name="password" id="password1"><br><br>
+
+        <button>Send</button>
+    </form>
+
+    <hr>
+
+    <h2>User Registration</h2>
+    <form>
+        <label for="username2">Username: </label>
+        <input type="text" name="username" id="username2"><br><br>
+
+        <label for="emailid2">Email: </label>
+        <input type="email" name="emailid" id="emailid2"><br><br>
+
+        <label for="password2">Password: </label>
+        <input type="password" name="password" id="password2"><br><br>
+
+        <label>Gender: </label>
+        <input type="radio" id="male1" name="gender1" value="Male">
+        <label for="male1">Male</label>
+
+        <input type="radio" id="female1" name="gender1" value="Female">
+        <label for="female1">Female</label>
+
+        <input type="radio" id="other1" name="gender1" value="Other">
+        <label for="other1">Other</label><br><br>
+
+        <input type="checkbox" name="agree" id="term">
+        <label for="term">I agree to terms and conditions</label><br><br>
+
+        <button>Register</button>
+    </form>
+
+    <hr>
+
+    <h2>Feedback Form</h2>
+    <form>
+        <label for="username3">Your Name: </label>
+        <input type="text" name="username" id="username3"><br><br>
+
+        <label for="emailid3">Your Email: </label>
+        <input type="email" name="emailid" id="emailid3"><br><br>
+
+        <label>Rate Us: </label>
+        <input type="radio" id="1star" name="rating" value="1 Star">
+        <label for="1star">1 Star</label>
+
+        <input type="radio" id="2star" name="rating" value="2 Stars">
+        <label for="2star">2 Stars</label>
+
+        <input type="radio" id="3star" name="rating" value="3 Stars">
+        <label for="3star">3 Stars</label>
+
+        <input type="radio" id="4star" name="rating" value="4 Stars">
+        <label for="4star">4 Stars</label>
+
+        <input type="radio" id="5star" name="rating" value="5 Stars">
+        <label for="5star">5 Stars</label><br><br>
+
+        <label for="comments">Comments: </label>
+        <textarea name="comments" id="comments" rows="5" cols="50"></textarea><br><br>
+
+        <button>Submit Feedback</button>
+    </form>
+
+    <hr>
+
+    <h2>Employee Details Form</h2>
+    <form>
+        <label for="username4">Full Name: </label>
+        <input type="text" name="username" id="username4" placeholder="Enter your full name" required><br><br>
+
+        <label for="emailid4">Email: </label>
+        <input type="email" name="emailid" id="emailid4" placeholder="Enter your email address" required><br><br>
+
+        <label for="phone">Phone Number: </label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label>Gender: </label>
+        <input type="radio" id="male2" name="gender2" value="Male">
+        <label for="male2">Male</label>
+
+        <input type="radio" id="female2" name="gender2" value="Female">
+        <label for="female2">Female</label>
+
+        <input type="radio" id="other2" name="gender2" value="Other">
+        <label for="other2">Other</label><br><br>
+
+        <label for="jobtitle">Job Title: </label>
+        <input type="text" name="jobtitle" id="jobtitle" placeholder="Enter your job title" required><br><br>
+
+        <label for="dep">Department</label>
+        <select name="Department" id="dep" required>
+            <option value="" disabled selected>Select your department</option>
+            <option value="Finance and Accounting">Finance and Accounting</option>
+            <option value="Marketing and Sales">Marketing and Sales</option>
+            <option value="Operations">Operations</option>
+            <option value="Human Resources (HR)">Human Resources (HR)</option>
+            <option value="Information Technology (IT)">Information Technology (IT)</option>
+        </select><br><br>
+
+        <button>Submit Form</button>
+    </form>
+
+    <hr>
+
+    <h2>IIT JEE Registration Form</h2>
+    <fieldset>
+        <legend>IIT JEE REGISTRATION FORM</legend>
+        <form>
+            <label for="username5">Full Name: </label>
+            <input type="text" name="username" id="username5" placeholder="Enter your full name" required><br><br>
+
+            <label for="emailid5">Email: </label>
+            <input type="email" name="emailid" id="emailid5" placeholder="Enter your email address" required><br><br>
+
+            <label for="phone2">Phone Number: </label>
+            <input type="tel" name="phone" id="phone2" placeholder="Enter your phone number" required><br><br>
+
+            <label for="password5">Password: </label>
+            <input type="password" name="password" id="password5" placeholder="Enter your password" required><br><br>
+
+            <label>Gender: </label>
+            <input type="radio" id="male3" name="gender3" value="Male">
+            <label for="male3">Male</label>
+
+            <input type="radio" id="female3" name="gender3" value="Female">
+            <label for="female3">Female</label>
+
+            <input type="radio" id="other3" name="gender3" value="Other">
+            <label for="other3">Other</label><br><br>
+
+            <label for="DOB">DOB: </label>
+            <input type="date" id="DOB" name="DOB"><br><br>
+
+            <label for="school">School Name: </label>
+            <input type="text" name="school" id="school" placeholder="Enter your school name" required><br><br>
+
+            <label for="BOARD">Board:</label>
+            <select name="BOARD" id="BOARD">
+                <option value="" disabled selected>Select your board</option>
+                <option value="CBSE">CBSE</option>
+                <option value="ICSE">ICSE</option>
+                <option value="State Board">State Board</option>
+                <option value="NIOS">NIOS</option>
+                <option value="IB">IB</option>
+                <option value="IGCSE">IGCSE</option>
+            </select><br><br>
+
+            <label for="pass_year">Year of Passing:</label>
+            <input type="number" id="pass_year" name="pass_year"><br><br>
+
+            <label for="Exam_Center">Exam Center: </label>
+            <select name="Exam Center" id="Exam_Center">
+                <option value="" disabled selected>Select your Center</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Pune">Pune</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bangalore">Bangalore</option>
+            </select><br><br>
+
+            <button>Register</button>
+        </form>
+    </fieldset>
+
+</body>
+</html>
