@@ -1,0 +1,51 @@
+h1{
+    color: red;
+    background-color: gold;
+}
+
+h2{
+    color: gold;
+    background-color: blue;
+
+}
+
+ul{
+    color: aqua;
+    background-color: black;
+}
+
+.one{
+    color: black;
+    background-color: aqua;
+}
+/* Class selctor*/
+.two{
+    color: gold;
+    background-color: black;
+}
+/* id selctor*/
+#one{
+    background-color: pink;
+}
+
+ /* Universal selctor
+*{
+    background-color: aquamarine;
+} */
+/* Group selctor*/
+/* h1,h3 .one,.two{
+    background-color: pink;
+} */
+
+/* Descendent selector */
+h4[draggable="true"]{
+    background-color: violet;
+}
+
+section p{
+    background-color: orange;
+}
+
+#best.ever{
+    background-color: green;
+}
